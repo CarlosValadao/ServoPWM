@@ -9,10 +9,10 @@ void pwm_init_all(uint8_t pwm_pin, float clkdiv, uint16_t wrap)
     pwm_set_clkdiv(pwm_pin, clkdiv);
     pwm_set_wrap(pwm_pin, wrap);
     pwm_set_enabled(slice, true);
-    pwm_gpio_set_level(pwm_pin, 0);
+    pwm_set_gpio_level(pwm_pin, 0);
 }
 
 void pwm_set_duty_cycle(uint8_t pwm_pin, uint duty_cycle)
 {
-    pwm_gpio_set_level(pwm_pin, duty_cycle);
+    pwm_set_gpio_level(pwm_pin, duty_cycle);
 }

@@ -14,5 +14,5 @@ void pwm_init_all(uint8_t pwm_pin, float clkdiv, uint16_t wrap)
 
 void pwm_set_duty_cycle(uint8_t pwm_pin, uint duty_cycle)
 {
-    return; //TO DO
+    pwm_gpio_set_level(pwm_pin, duty_cycle);
 }

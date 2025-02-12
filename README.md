@@ -1,4 +1,4 @@
-# ServoPWM 🎮 -> [Assista ao vídeo de apresentação](https://youtu.be/seu_video_aqui)
+# ServoPWM 🎮 -> [Assista ao vídeo de apresentação](https://youtu.be/yOBFRAaiK4M)
 
 **ServoPWM** é um controlador de servo motor via PWM desenvolvido para a **Raspberry Pi Pico W** utilizando a placa **BitDogLab**. O programa movimenta o servo motor entre os ângulos de 0 a 180 graus, com a movimentação suave, ajustando o ciclo ativo de acordo com a posição desejada do servo.
 
